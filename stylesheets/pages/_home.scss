@@ -5,6 +5,11 @@
 	font-family: "dinPro-light";
 	src: url("../fonts/DINPro-Light.otf");
 }
+@font-face {
+	font-family: "dinPro-medium";
+	src: url("../fonts/DINPro-Medium.otf");
+}
+
 .carousel-indicators {
 	bottom: 10px;
 	li {
@@ -21,6 +26,7 @@
 		}
 	}
 }
+
 #caracteristicas {
 	padding: 65px 0;
 	img {
@@ -28,8 +34,76 @@
 	}
 	p {
 		font-family: $font-family-serif;
-		font-size: 18px;
+		font-size: 16px;
 		color: #666;
 		padding-top: 29px;
+	}
+}
+
+#equipos {
+	margin-bottom: 35px;
+	h2 {
+		font-size: 28px;
+		font-family: "dinPro-medium";
+		margin-top: 0;
+	}
+	.option-container {
+		margin-top: 56px;
+		.nav-tabs {
+			margin: 0 auto;
+			border-bottom: 2px solid #e7e7e7;
+			> li {
+				width: 254px;
+				margin: 0 auto -2px;
+		    float: none;
+		    display: inline-block;
+		    a {
+		    	font-size: 18px;
+		    	font-family: $font-family-serif;
+		    	background-color: #333;
+	    		color: white;
+	    		margin-right: 0;
+		    }
+		    &.active a {
+		    	border-width: 2px;
+		    	background-color: white;
+		    	color: #333;
+		    	padding-top: 20px;
+		    }
+			}
+		}
+	}
+	.tab-content {
+		margin-top: 50px;
+		margin-bottom: 35px;
+		.box-equipo {
+			padding-top: 40px;
+			padding-bottom: 20px;
+			img {
+				height: 250px;
+			}
+			a {
+				position: absolute;
+		    top: 0px;
+		    left: 0;
+		    bottom: 0;
+		    right: 0;
+			}
+		}
+	}
+	.ver-todos {
+		width: 290px;
+    height: 50px;
+    padding-top: 15px;
+		background-color: #1f97ae;
+	}
+}
+.bg-gray-lighter {
+	background-color: $gray-lighter;
+}
+#marcas {
+	h2 {
+		font-family: $font-family-serif;
+		font-size: 26px;
 	}
 }
