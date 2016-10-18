@@ -3747,9 +3747,28 @@ footer .footer-inferior {
     margin-bottom: 35px; }
     #equipos .tab-content .box-equipo {
       padding-top: 40px;
-      padding-bottom: 20px; }
-      #equipos .tab-content .box-equipo img {
+      padding-bottom: 20px;
+      position: relative; }
+      #equipos .tab-content .box-equipo .nuevo {
+        position: absolute;
+        top: 0px;
+        left: 15px;
+        width: 62px; }
+      #equipos .tab-content .box-equipo .promocion {
+        position: absolute;
+        left: 0;
+        top: 145px;
+        width: 85px; }
+      #equipos .tab-content .box-equipo .imagen-equipo {
         height: 250px; }
+      #equipos .tab-content .box-equipo .descuento {
+        position: absolute;
+        right: 35px;
+        top: 60px; }
+      #equipos .tab-content .box-equipo .lite {
+        position: absolute;
+        bottom: 70px;
+        left: 35px; }
       #equipos .tab-content .box-equipo a {
         position: absolute;
         top: 0px;

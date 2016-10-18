@@ -79,8 +79,31 @@
 		.box-equipo {
 			padding-top: 40px;
 			padding-bottom: 20px;
-			img {
+			position: relative;
+			.nuevo {
+				position: absolute;
+		    top: 0px;
+		    left: 15px;
+		    width: 62px;
+			}
+			.promocion {
+				position: absolute;
+		    left: 0;
+		    top: 145px;
+		    width: 85px;
+			}
+			.imagen-equipo {
 				height: 250px;
+			}
+			.descuento {
+				position: absolute;
+		    right: 35px;
+		    top: 60px;
+			}
+			.lite {
+				position: absolute;
+		    bottom: 70px;
+		    left: 35px;
 			}
 			a {
 				position: absolute;
