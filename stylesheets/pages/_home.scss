@@ -1,6 +1,10 @@
 * {
 	font-family: $font-family-sans-serif;
 }
+@font-face {
+	font-family: "dinPro-light";
+	src: url("../fonts/DINPro-Light.otf");
+}
 .carousel-indicators {
 	bottom: 10px;
 	li {
@@ -15,5 +19,17 @@
 			height: 13px;
 			margin-right: 5px;
 		}
+	}
+}
+#caracteristicas {
+	padding: 65px 0;
+	img {
+		height: 48px;
+	}
+	p {
+		font-family: $font-family-serif;
+		font-size: 18px;
+		color: #666;
+		padding-top: 29px;
 	}
 }
