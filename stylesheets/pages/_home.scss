@@ -121,10 +121,8 @@
 		background-color: #1f97ae;
 	}
 }
-.bg-gray-lighter {
-	background-color: $gray-lighter;
-}
 #marcas {
+	background-color: #f5f5f5;
 	padding: 15px 0px 30px;
 	h2 {
 		font-family: $font-family-serif;
@@ -154,6 +152,20 @@
 		}
 		a {
 			color: #797979;
+		}
+	}
+}
+#complementos {
+	padding: 25px 0px 90px;
+	h2 {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.productos {
+		background-color: #ddd;
+		padding: 40px;
+		img {
+			width: 230px;
 		}
 	}
 }

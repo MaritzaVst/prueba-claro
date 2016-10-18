@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 @import "vendor/b3/B3"; 
-@import "vendor/bourbon/bourbon";
 
 @import "layout/header";
 @import "layout/footer";  
 
 @import "pages/home";
+
+@import "includes/utilities";

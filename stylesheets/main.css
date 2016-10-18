@@ -3627,13 +3627,38 @@ input[type="button"].btn-block {
   .hidden-print {
     display: none !important; } }
 #header-superior {
-  background-color: #222222;
-  padding: 12px 0px; }
-  #header-superior a {
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: 300;
-    padding-right: 10px; }
+  background-color: #222222; }
+  #header-superior ul {
+    padding: 10px 0px; }
+    #header-superior ul a {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 300;
+      padding-right: 10px; }
+  #header-superior .checkout {
+    background-color: #1f97ae;
+    padding: 10px 12px; }
+    #header-superior .checkout img {
+      width: 23px; }
+    #header-superior .checkout a {
+      text-decoration: none; }
+    #header-superior .checkout .cantidad {
+      background-color: white;
+      color: #1f97ae;
+      border-radius: 100%;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      font-weight: 500;
+      margin-left: 5px; }
+    #header-superior .checkout .glyphicon {
+      padding-left: 10px;
+      font-size: 10px; }
+  #header-superior .ingresar {
+    padding: 9px 15px; }
+    #header-superior .ingresar a:hover {
+      color: white;
+      text-decoration: none; }
 
 #header-inferior {
   background-color: #da262d;
@@ -3649,12 +3674,6 @@ input[type="button"].btn-block {
       font-size: 16px;
       padding: 0px 5px;
       font-weight: 300; }
-
-.text-white {
-  color: white; }
-
-.mb-0 {
-  margin-bottom: 0; }
 
 footer .site-map {
   padding: 30px 0px;
@@ -3781,10 +3800,8 @@ footer .footer-inferior {
     padding-top: 15px;
     background-color: #1f97ae; }
 
-.bg-gray-lighter {
-  background-color: #f9f9f9; }
-
 #marcas {
+  background-color: #f5f5f5;
   padding: 15px 0px 30px; }
   #marcas h2 {
     font-family: "dinPro-light", Georgia, "Times New Roman", Times, serif;
@@ -3807,5 +3824,25 @@ footer .footer-inferior {
     font-weight: 500; }
   #breadcrumb li a, #breadcrumb ol li a {
     color: #797979; }
+
+#complementos {
+  padding: 25px 0px 90px; }
+  #complementos h2 {
+    font-size: 18px;
+    margin-bottom: 5px; }
+  #complementos .productos {
+    background-color: #ddd;
+    padding: 40px; }
+    #complementos .productos img {
+      width: 230px; }
+
+.bg-gray-lighter {
+  background-color: #f9f9f9; }
+
+.text-white {
+  color: white; }
+
+.mb-0 {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
