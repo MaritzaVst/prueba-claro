@@ -1,4 +1,19 @@
 footer {
+	.site-map {
+		padding: 30px 0px;
+		background-color: #ddd;
+		h2 {
+			font-size: 14px;
+		}
+		ul li {
+			padding-bottom: 5px;
+			a {
+				color: #333333;
+		    font-weight: 100;
+		    font-size: 13px;
+			}
+		}
+	}
 	.footer-inferior {
 		padding: 10px 0;
 		background-color: $gray-darker;

@@ -118,3 +118,19 @@
 		}
 	}
 }
+#breadcrumb, #breadcrumb ol {
+	padding-left: 0;
+	background-color: #cacaca;
+	li {
+		&:before {
+			color: #797979;
+		}
+		&.active {
+			color: #333333;
+			font-weight: 500;
+		}
+		a {
+			color: #797979;
+		}
+	}
+}
