@@ -1,3 +1,19 @@
 * {
 	font-family: $font-family-sans-serif;
 }
+.carousel-indicators {
+	bottom: 10px;
+	li {
+		background-color: #aaa;
+		width: 13px;
+		height: 13px;
+		margin-right: 5px;
+		margin-bottom: 0;
+		&.active {
+			background-color: #1f97ae;
+			width: 13px;
+			height: 13px;
+			margin-right: 5px;
+		}
+	}
+}
