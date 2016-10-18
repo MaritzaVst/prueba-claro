@@ -102,8 +102,19 @@
 	background-color: $gray-lighter;
 }
 #marcas {
+	padding: 15px 0px 30px;
 	h2 {
 		font-family: $font-family-serif;
 		font-size: 26px;
+	}
+	ul {
+		margin-top: 40px;
+		li {
+			display: table;
+			a {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
 	}
 }

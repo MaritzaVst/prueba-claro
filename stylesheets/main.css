@@ -3723,8 +3723,17 @@ input[type="button"].btn-block {
 .bg-gray-lighter {
   background-color: #f9f9f9; }
 
-#marcas h2 {
-  font-family: "dinPro-light", Georgia, "Times New Roman", Times, serif;
-  font-size: 26px; }
+#marcas {
+  padding: 15px 0px 30px; }
+  #marcas h2 {
+    font-family: "dinPro-light", Georgia, "Times New Roman", Times, serif;
+    font-size: 26px; }
+  #marcas ul {
+    margin-top: 40px; }
+    #marcas ul li {
+      display: table; }
+      #marcas ul li a {
+        display: table-cell;
+        vertical-align: middle; }
 
 /*# sourceMappingURL=main.css.map */
