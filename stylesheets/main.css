@@ -3640,6 +3640,21 @@ input[type="button"].btn-block {
 .mb-0 {
   margin-bottom: 0; }
 
+footer .footer-inferior {
+  padding: 10px 0;
+  background-color: #222222; }
+  footer .footer-inferior img {
+    width: 60px; }
+  footer .footer-inferior span {
+    padding-left: 25px; }
+  footer .footer-inferior a {
+    color: #1f97ae; }
+  footer .footer-inferior a, footer .footer-inferior span {
+    font-weight: 100;
+    font-size: 12px; }
+  footer .footer-inferior li {
+    padding-left: 30px; }
+
 * {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 

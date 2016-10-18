@@ -1,0 +1,22 @@
+footer {
+	.footer-inferior {
+		padding: 10px 0;
+		background-color: $gray-darker;
+		img {
+			width: 60px;
+		}
+		span {
+    	padding-left: 25px;
+		}
+		a {
+			color: #1f97ae;
+		}
+		a, span {
+			font-weight: 100;
+			font-size: 12px;
+		}
+		li {
+			padding-left: 30px;
+		}
+	}
+}
