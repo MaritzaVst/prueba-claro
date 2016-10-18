@@ -1,0 +1,34 @@
+#header-superior {
+	background-color: $brand-success;
+	padding: 12px 0px;
+	a {
+		color: $brand-info;
+		font-size: 13px;
+		font-weight: 300;
+		padding-right: 10px;
+	}
+} 
+#header-inferior {
+	background-color: $brand-primary;
+	padding: 15px 0px;
+	.logo-header img {
+		width: 85px;
+		margin-top: -13px;
+	}
+	nav {
+		display: inline-block;
+		padding-left: 30px;
+		a {
+			color: $brand-info;
+			font-size: 18px;
+			padding: 0px 5px;
+			font-weight: 300;
+		}
+	}
+}
+.text-white {
+	color: white;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
